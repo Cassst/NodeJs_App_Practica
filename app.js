@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({extended:true}));
 
 const mongodb =
-  "mongodb+srv://Cast:AugustO112@proyecto.ywv0f.mongodb.net/item-database?retryWrites=true&w=majority";
+  "mongodb+srv://User:1234@proyecto.ywv0f.mongodb.net/item-database?retryWrites=true&w=majority";
 
 mongoose
   .connect(mongodb, { useNewUrlParser: true, useUnifiedTopology: true })
